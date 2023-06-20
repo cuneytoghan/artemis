@@ -13,7 +13,6 @@ image:
 
 ingress:
   enabled: true
-  className: ""
   annotations: 
     ingress.kubernetes.io/ssl-redirect: "false"
     kubernetes.io/ingress.class: nginx
@@ -25,7 +24,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  tls: []
+  tls: 
    - secretName: artemis-dev-tls
      hosts:
        - dev.cuneytoghan.com
