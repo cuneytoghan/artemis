@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 3
+replicaCount: 4
 
 # image:
 #   repository: us-central1-docker.pkg.dev/terraform-project-noghan/artemis/artemis
@@ -13,7 +13,7 @@ image:
   repository: us-central1-docker.pkg.dev/terraform-project-noghan/artemis/artemis
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "9.0.0"
+  tag: "5.0.0"
 
 ingress:
   enabled: true
