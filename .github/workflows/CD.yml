@@ -6,7 +6,6 @@ env:
   app_name:     "artemis"
 
 
-
 name: ContinuousDelivery
 # Controls when the workflow will run
 on:
